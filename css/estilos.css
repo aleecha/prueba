@@ -82,17 +82,7 @@ top: 0px;
 .img{
     width: 100%;
 }
-	/*Pseudo-clases o Pseudo-Elementos, se aplican con :
-			#nav-list li a:hover{
-				background: white;
-				color: salmon;
-				border-top: 2px solid salmon;
-			}
-			#nav-list li a:active{
-				transform:translateY(5px)
-			}*/
-
-
+	
 
 
 
@@ -122,99 +112,61 @@ margin-bottom: 10%;
 }
 
 
-.texto h3::after{
-	transform: translateY(-35px);
+
+#somos{
+	padding-top:6%;
+	padding-bottom: 6%;
+}
+
+
+
+#somos h3{
+	font-size: 24px;
+    line-height: 26px;
+    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+    font-weight: 800;
+    margin-bottom: 25px;
+    margin-top: 0;
+	color: #333;
+	padding-top: 3%;
+}
+
+
+#somos .parrafo p{
+	margin-bottom: 0%;
+	padding-bottom: 0px;
+    color: #777;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 20px;
+}
+#somos h3::after{
 	border-top: 3px solid #006db7;
-	/*position: absolute;*/
+	position: absolute;
+	top: -0%;
     display: block;
     content: "";
     width: 40px;
 	height: 3px;
 	bottom: 70px;
 }
-	
-    
 
-
-
-
-#somos{
-	margin-top: 50%;
-	line-height: 22px;
-	height: 62em;
-}
-#somos .mitad{
-
-display: flex;
-justify-content:space-between;
+#somos .fotopi{
+	padding-top:1%;
 }
 
-
-
-#somos .fototexto{
-	margin-left: 2%;
-	display: flex;
-	width: 46%;
-	
-	margin-bottom: 0%;
-	flex-wrap: wrap;
+#somos .fotobajo{
+	padding-top:1%;
 }
-
-#somos .parrafo p{ 
-	
-	margin-bottom: 10px;
+#somos .fotobajo .ima1, .ima2, .ima3, .ima4{
+	padding-top:2%;
+	padding-bottom:2%;
 }
-
-.fotopi{
-	
-	align-self: flex-start;
-	width: 49%;
-	
-	justify-content:space-between;
-	
-}*/
-
-
-
-
-
-
-
-
-.fotobajo .img{
-	width: 92%;			
- }
-
-
-.fotobajo{
-	transform: translateY(-16px);
-	width: 100%;
-	display:flex;
-	flex-direction: row;
-	align-content: space-between;
-}
-
-
-.fotobajo .ima1{
-	align-self: flex-start;
-	order:-1;
-	
-}
-.fotobajo .ima4{
-	margin-right: -26px;
-	order:1;
-	align-self:flex-end;	
-}
-
-
-
-
-
 
 
 #eventos{
 	width: 100%;
-	background-image: url("../img/parallax01.jpg");
+	background: url("../img/parallax01.jpg") fixed no-repeat 50% 50%;
+	background-size: cover;;
 	height: auto;
 	box-sizing: border-box;
 	background-color: transparent;
@@ -233,25 +185,41 @@ justify-content:space-between;
 	
 }
 
+#eventos h3{
+	font-size: 18px;
+    line-height: 22px;
+    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+    font-weight: 800;
+    margin-bottom: 25px;
+    margin-top: 0;
+    color: #333;
+}
 
 .card{
+	
+display:flex;
 
 background-color: transparent;
 border: none;
 	
 }
+#eventos .row{
+	
+justify-content: space-around;
+}
 
 .card .tarjeta1{
-	padding-top: 1%;
-	margin-top:1.8%;
+	padding-top: 2%;
+	margin-top:4%;
+	justify-content: space-between;
 	background-color: white;
 	
 }
 
 .card .tarjeta2{
-	padding-top: 1%;
+	padding-top: 2%;
 	margin:0% 1.8%;
-	margin-top:1.8%;
+	margin-top:4%;
 	background-color: white;
 	overflow: hidden;
 }
@@ -259,7 +227,7 @@ border: none;
 .card .tarjeta3{
 	padding-top: 1%;
 background-color: white;
-margin-top:1.8%;
+margin-top:4%;
 overflow: hidden;
 }
 
@@ -296,6 +264,21 @@ overflow: hidden;
 	
 }
 
+#eventos h3::after{
+	transform: translateY(-30px);
+	border-top: 3px solid #006db7;
+	position: absolute;
+    display: block;
+    content: "";
+    width: 40px;
+	height: 3px;
+	bottom: 70px;
+}
+
+
+
+
+
 
 
 
@@ -303,7 +286,8 @@ overflow: hidden;
 
 #wasap{
 	width: 100%;
-	background-image:url("../img/parallax02.jpg");
+	background:url("../img/parallax02.jpg") fixed no-repeat 50% 50%;
+	background-size: cover;
 
 }
 #wasap h2{
@@ -318,11 +302,8 @@ overflow: hidden;
 }
 
 #wasap .wasa{
-	box-sizing: border-box;
-	margin-left: 23%;
-	margin-right:40% ;
-padding: 5%;
-	width: 50%;
+	padding-bottom: 10%;
+	text-align: center;
 }
 
 
