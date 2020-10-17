@@ -83,7 +83,6 @@ top: 0px;
 .img{
     width: 100%;
 }
-	
 
 
 
@@ -286,12 +285,11 @@ overflow: hidden;
 
 
 #wasap{
-	width: 100%;
+	
 	background:url("../img/parallax02.jpg") fixed no-repeat 50% 50%;
 	background-size: cover;
-	
+	 }
 
-}
 #wasap h2{
 	text-decoration: bolder;
 	margin-top: 0%;
@@ -299,16 +297,21 @@ overflow: hidden;
 	font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
 	font-size: 32px;
 	line-height: 50px;
-	text-align: center;
-	padding-top: 12%;
+	padding-top: 10%;
 }
 
-#wasap .wasa{
-	padding-bottom: 10%;
-	text-align: center;
-	padding: 0%;
+#wasap .row{
 	
+	text-align: center;
+	padding-bottom: 5%;
 }
+
+
+
+
+
+
+
 
 
 
@@ -328,29 +331,20 @@ width: 100%;
 	transform: translateY(60px);
 }
 
+
+
+
+
+
+
+
+
 #ubicacion {
 	width: 100%;
-	margin-top: -10%;
-	height: 900px;
+	
 	
 }
-#ubicacion .ubic {
-	transform: translateY(-150%);
-	float: right;
-	padding-right: 5%;
-	margin-bottom: 5%;
-}
-#ubicacion .ubic h3 {
-	text-align: center;
-	margin-bottom: 5%;
-}
 
-#ubicacion .info{
-	margin-left: 10px;
-	transform: translateY(110px);
-	width: 40%;
-	margin-top: 5%;
-}
 #ubicacion .info p{
 	margin-bottom: 30px;
 	color: #777;
@@ -363,15 +357,19 @@ width: 100%;
 	font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
     font-weight: 600;
     margin-bottom: 20px;
-    
+    color: #333;
+}
+#ubicacion .ubic h3{
+	margin-bottom: 5px;
+	font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
     color: #333;
 }
 
 #ubicacion .info h3::after{
-	transform: translateY(-30px);
 	border-top: 3px solid #006db7;
-	/*position: absolute;*/
-    display: block;
+	display: block;
     content: "";
     width: 40px;
 	height: 3px;
@@ -380,23 +378,9 @@ width: 100%;
 #ubicacion .titulo{
 	width: 40%;
 }
+
 #ubicacion .formu .datos{
 	width: 100%;
-	transform: translateY(10%);
-}
-
-
-
-#ubicacion .formu input{
-	text-decoration-line: none;
-	margin-top: 0%;
-	margin-bottom: 1.5%;
-	background: white;
-	width: 30%;
-	height: 30px;
-	border: groove  #006eb78a;  
-	border-radius: 2em;
-	
 }
 
 #ubicacion .formu h3{
@@ -406,54 +390,79 @@ font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
 	font-size: 16px;
 }
 
-
-#ubicacion .formulario{
-	transform: translateY(20%);
+#ubicacion .formu input{
+	text-decoration-line: none;
+	margin-top: 0%;
+	margin-bottom: 1.5%;
+	background: white;
+	width: 80%;
+	height: 40px;
+	border: groove  #006db7;  
+	border-radius: 2em;
+	outline: none;
 	
 }
+
+
+#ubicacion .ubic{
+	width: auto;
+}	
+#ubicacion .row{
+	margin-top: 5%;
+	padding:0px;
+}
+
 
 #ubicacion .formulario .titulo{
 	font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
     font-weight: 600;
     margin-bottom: 25px; 
-    color: #333;
+	color: #333;
+	width: 100%;
 }
 
-#ubicacion .formu textarea{
-	text-decoration-line: none;
-	margin-top: 0%;
-	margin-bottom: 1.5%;
-	background: white;
-	width: 30%;
-	height: 80px;
-	border: groove  #006eb78a;  
-	border-radius: 2em;
-	
-}
 #ubicacion .formu select{
 	text-decoration-line: none;
 	margin-top: 0%;
 	margin-bottom: 1.5%;
 	background: white;
-	width: 30%;
-	height: 30px;
-	border: groove  #006eb78a;  
+	width: 80%;
+	height: 40px;
+	border: groove  #006db7;  
 	border-radius: 2em;
-	
+	outline: none;
 }
 
 #ubicacion .formu input[type=submit]{
 	text-decoration-line: none;
-	margin-top: 0%;
-	margin-bottom: 1.5%;
+	margin-top: 5%;
+	margin-bottom: 15.5%;
 	background: rgb(255, 255, 255);
-	width: 10%;
-	margin-left: 10%;
-	height: 50px;
-	border: groove  #006eb78a;  
-	border-radius: 2em;
+	width: 50%;
+	height: 60px;
+	border: groove  #006db7;  
+	border-radius: 1em;
+	outline: none;
+	text-align: center;
+	display: inline-block;
+	margin-left: 15%;
 	
 }
+
+#ubicacion .formu input[type=submit]:active{
+box-shadow: 4px 3px 5px 4px #006db7;
+}
+
+#ubicacion .datos{
+	width: 100%;
+}
+#ubicacion .mapa{
+	width: 100%;
+	
+}
+
+
+
 
 
 
@@ -488,10 +497,7 @@ list-style-type: none;
 }
 #footer .widget{
 	
-	font-size: 13px;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-bottom:10%;
+	
 	text-decoration: none;
 	list-style-type: none;
 	
@@ -507,10 +513,29 @@ list-style-type: none;
 
 
 
+#footer a{
+	font-size: 13px;
+	
+	margin-bottom:10%;
+	color:white;
+	list-style-type: none;
+	text-decoration: none;
+	
+}
+
+#footer a:hover{
+	color:#006db7 ;
+}
 
 
+#footer h5{
+	color:white;
+}
 
-
-
-
-
+#footer li{
+	color:white;	
+	margin-bottom: 5px;
+}
+#footer .footer-copyright{
+	color: cornsilk;
+}

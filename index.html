@@ -9,6 +9,8 @@
 	
 </head>
 <body>
+	<!--<div class="container-fluid">
+		<div class="container">
 	<div class="cubo">
 	<div class="logo2">
 	<a href="https://wa.me/+541168747882?text=Hola estoy interesado en sus productos">
@@ -16,8 +18,10 @@
 	
 	</div>
 	</div>
+	</div>
+	</div>!-->
 
-		<header id="header">
+	<!--	<header id="header">
 		<div class="container-fluid">
        <div class="container"> 
            <div class="row">
@@ -40,7 +44,7 @@
             </div>    
         </div>
 	
-	</header>
+	</header>-->
 	<section id="portada">
 			<div class="texto container-fluid">
 							<div class="container col-12">	
@@ -134,7 +138,7 @@
 
 
 <section id="eventos">
-	<div class="container-fluid">
+		<div class="container">
 		<div class=" tex col-12"><h2>EVENTOS</h2></div>
 		<div class="card container-fluid">
 			<div class="row">
@@ -164,6 +168,7 @@
 						</div>
 			</div>
 		 </div>
+		</div>
 	</div>
 
 </section>
@@ -176,12 +181,13 @@
 
 
 
-
+	
 	<section id="wasap">
 		<div class="container-fluid">
-			<div class="container">
-				<div class="row">
+			<div class="container"> 
+				<div class="row justify-content-center">
 						<div class="dudas col-12">
+					
 							<h2>¿duda o consultas?
 							<br> 
 							Escribenos a nuestro Whatsapp.
@@ -189,8 +195,12 @@
 						</div>
 
 
-						<div class="wasa col-12 w-100"><img class="img" src="img/num.png" alt="Trucking"/>
-						</div>
+						<div class="wasa">
+								<div class="a col-12">
+									<img src="img/num.png" alt="" class="img">
+								</div>
+							</div> 
+						
 				</div>
 			</div>			
 		</div>
@@ -199,73 +209,235 @@
 
 
 
+
+
+
+
+
+
+
 	<section id="contacto" >
-	<div class="letra">	<h2><strong>CONTACTO</strong></h2></div>
+		<div class="container-fluid">
+			<div class="container">
+				<div class="letra">	
+					<h2><strong>CONTACTO</strong></h2>
+				</div>
+
+			</div>
+		</div>
+
 	</section>	
 
-	<section id="ubicacion" >
-		<div class="info"><p>Agradecemos su lectura y esperamos que nuestra presencia en la web, y lo expresado en esta presentación le sirva de referencia al momento de tomar una decisión.</p>
-		<h3>DATOS DE CONTACTO</h3>
-		<p>Bermejo 1350 Francisco Alvarez CP 1746
-			Buenos Aires - Argentina</p></div>
-	<div class="formulario">
-			<div class="titulo"> <h4>Por favor envienos la siguiente informacion para poder contactarnos y brindarle la mejor atencion posible.</h4> </div>
-			<div class="datos">
-				<div class="formu">
-					<form action="ale9115@gmail.com" method="POST">
+
+
+
+
+
+
+
+<section id="ubicacion" >
+
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+
+	
+				<div class="contacto col-lg-6 col-md-12">
+					<div class="info">
+						<h3>DATOS DE CONTACTO</h3>
+						<p>Bermejo 1350 Francisco Alvarez CP 1746
+							Buenos Aires - Argentina</p>
+					</div>
+
+					<div class="formulario">
+							<div class="titulo"> <h4>Por favor envienos la siguiente informacion para poder contactarnos y brindarle la mejor atencion posible.</h4> 
+							</div>
+
+						<div class="datos">
+							<div class="formu">
+								<form action="ale9115@gmail.com" method="POST">
 	  
-				  <div class="nombre"> <h3>Nombre / Empresa</h3>
-					<input type="text"  required name="nombre" >
-					 </div>
+				 					 <div class="nombre"> <h3>Nombre / Empresa</h3>
+										<input type="text"  required name="nombre" >
+					 				</div>
 
 				 
 
-				   <div class="Telefono"> <h3>Telefono</h3>
-					<input type="tel" name="telefono">
-				   </div>
+				  					 <div class="Telefono"> <h3>Telefono</h3>
+										<input type="tel" name="telefono">
+				  					 </div>
 
-					<div class="email"> <h3>Email</h3>
-					<input type="email" name="Email">
-				   </div>
+
+									<div class="email"> <h3>Email</h3>
+										<input type="email" name="Email">
+				  					 </div>
 
 				  
 
-						<div class="clase">
-							<h3>Productos</h3>
-							<select name="localidad" id="" required>
-								<option value="" selected>Seleccionar</option>
-								<option value="01">Puntilladora</option>
-								<option value="02">Dobladora</option>
-								<option value="03">Trazadora</option>
-								<option value="04">Estanterias</option>
-								<option value="14">otro</option>
-							</select>
-						  </div>
+										<div class="clase">
+											<h3>Productos</h3>
+											<select name="producto" id="" required>
+												<option value="" selected>Seleccionar</option>
+												<option value="01">Puntilladora</option>
+												<option value="02">Dobladora</option>
+												<option value="03">Trazadora</option>
+												<option value="04">Estanterias</option>
+												<option value="14">otro</option>
+							
+						  				</div>
 						  
-						  <div class="consulta">	
-							<label>
-							  <h3>escriba su consulta</h3>
-							  <textarea name="mensaje" required maxlength="200"  title='el campo acepta hasta 200 caracteres'></textarea>
-							</label>
-						  </div>
+									
 
-						  <div class="btn">
-							<input type="submit" value="Enviar" class="btn-submit">
-						</div>
+						 				 	<div class="boton">
+												<input type="submit" value="Enviar" class="btn-submit">
+											</div>
+										 </form>
+						
+							</div>
+						</div>			
+	
+					</div>
+				</div>
 
-	</div>
-	<section>
-			<div class="ubic">
-			<h3>UBICACION</h3>
 
-			<iframe calss="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1380.1837839539855!2d-58.86516999833895!3d-34.63831558489176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1601398816959!5m2!1ses-419!2sar" width="600" height="450" frameborder="0"; allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				<div class="ubic col-lg-6 col-md-12 col-sm-12">
+					<h3>UBICACION</h3>
+					<iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1380.1837839539855!2d-58.86516999833895!3d-34.63831558489176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1601398816959!5m2!1ses-419!2sar" width="600" height="450" frameborder="0"; allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+	
 			</div>
-	</section>	
+		</div>
+	</div>
+</section>
+
+
 
 
 
 	<section id="footer" >
-		<h2>Sección 6</h2>
+
+		<!-- Footer -->
+<footer class="page-footer font-small indigo">
+
+	<!-- Footer Links -->
+	<div class="container text-center text-md-left">
+  
+	  <!-- Grid row -->
+	  <div class="row">
+  
+		<!-- Grid column -->
+		<div class="col-md-3 mx-auto">
+  
+		  <!-- Links -->
+		  <h5 class="font-weight-bold text-uppercase mt-3 mb-4">PRODUCTOS</h5>
+  
+		  <ul class="list-unstyled">
+			<li>
+			  <a href="#!">Puntilladora Medio Corte Trazadora MPH 520 S</a>
+			</li>
+			<li>
+			  <a href="#!">Puntilladora Medio Corte MP 370</a>
+			</li>
+			<li>
+			  <a href="#!">Dobladora Plegadora DT 330</a>
+			</li>
+			<li>
+			  <a href="#!">BARNIZADORA Laqueadora UV LK 520</a>
+			</li>
+		  </ul>
+  
+		</div>
+		<!-- Grid column -->
+  
+		<hr class="clearfix w-100 d-md-none">
+  
+		<!-- Grid column -->
+		<div class="col-md-3 mx-auto">
+  
+		  <!-- Links -->
+		  <h5 class="font-weight-bold text-uppercase mt-3 mb-4">EVENTOS</h5>
+  
+		  <ul class="list-unstyled">
+			<li>
+			  <a href="#!">EXPOGRAFIKA REGIONAL 2016</a>
+			</li>
+			<li>
+			  <a href="#!">17° E.I.C.V. 2017</a>
+			</li>
+			<li>
+			  <a href="#!">EXPOGRAFIKA 2017</a>
+			</li>
+			
+		  </ul>
+  
+		</div>
+		<!-- Grid column -->
+  
+		<hr class="clearfix w-100 d-md-none">
+  
+		<!-- Grid column -->
+		<div class="col-md-3 mx-auto">
+  
+		  <!-- Links -->
+		  <h5 class="font-weight-bold text-uppercase mt-3 mb-4">TELÉFONOS</h5>
+  
+		  <ul class="list-unstyled">
+			<li>
+			  Celular (011) 15 6874 7882
+			</li>
+			<li>
+			  Whatsapp +54 911 6874 7882
+			</li>
+			<li>
+			  Tel. Particular (0237) 487 3511
+			</li>
+			
+		  </ul>
+  
+		</div>
+		<!-- Grid column -->
+  
+		<hr class="clearfix w-100 d-md-none">
+  
+		<!-- Grid column -->
+		<div class="col-md-3 mx-auto">
+  
+		  <!-- Links -->
+		  <h5 class="font-weight-bold text-uppercase mt-3 mb-4">CONTACTO</h5>
+  
+		  <ul class="list-unstyled">
+			<li>
+			  <a href="#!">Bermejo 1350 Francisco Alvarez CP 1746</a>
+			</li>
+			<li>
+			  <a href="#!">Buenos Aires - Argentina</a>
+			</li>
+			<li>
+			  <a href="#!">info@detec-ar.com</a>
+			</li>
+			<li>
+			  <a href="#!">dgecha@gmail.com</a>
+			</li>
+		  </ul>
+  
+		</div>
+		<!-- Grid column -->
+  
+	  </div>
+	  <!-- Grid row -->
+  
+	</div>
+	<!-- Footer Links -->
+  
+	<!-- Copyright -->
+	<div class="footer-copyright text-center py-3">© 2020 Copyright:
+	  <a href="https://mdbootstrap.com/"> Alejandro Echavarri</a>
+	</div>
+	<!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+		
 <!--<div class="todo">	<li class="widget">
 			<div class="title">
 				<h3>Productos</h3>
