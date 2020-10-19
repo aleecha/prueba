@@ -4,6 +4,8 @@ html{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;	
 }
+/*font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+	*/
 
 
 @keyframes cubo{
@@ -60,7 +62,13 @@ top: 0px;
 	
 }
 */
-
+#header{
+	position: absolute;
+	z-index: 100;
+	position: fixed;
+	width: 100%;
+	box-shadow: 0px 1px 5px 0px  grey;
+}
 
 #navbarText .navbar-nav .nav-link{
 				font-weight: bolder;
@@ -89,14 +97,18 @@ top: 0px;
 }
 
 
-
+#portada .container-fluid{
+	padding:0%;
+	padding-top: 4%;
+	
+}
 
 #portada h2{
 	position: absolute;
 	top: 20%;
 	left: 30%;
 	z-index: 1;
-	margin-bottom: 10%;
+margin-bottom: 10%;
     color: #fff;
     font-size: 72px;
     font-weight: 800;
@@ -114,6 +126,15 @@ top: 0px;
 	margin-top: 20%;
 	z-index: 1;
 }
+
+
+
+
+
+
+
+
+
 
 
 
