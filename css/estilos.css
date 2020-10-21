@@ -41,47 +41,27 @@ transform: scale(1);
 	
 }
 
-/*#header {
-	position: absolute;
-	z-index: 10;
-	background-color:white;
-position: sticky;
-top: 0px;
-
-}	
-
-	
-
-#header .logo{
-	margin-top: 1.5%;
-	background-color: rgba(255,255,255,0.5);
-}
-
-#header .principal{
-	font-weight: 700;
-	font-size: 13px;
-	font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
-	
-}
-*/
 #header{
-	height: 2%;
+	top: -2%;
 	position: absolute;
 	z-index: 100;
 	position: fixed;
 	width: 100%;
 	background-color: white;
 	box-shadow: 0px 1px 5px 0px  grey;
-	font-family:"Segoe UI","Roboto","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	
+}
+#navbar{
+	background-color: transparent;
 }
 
 #navbarText .navbar-nav .nav-link{
 				font-weight: bolder;
 				background-color:white;
-				color: black;
+				color: rgba(41, 41, 41, 0.808);
 				text-decoration: none;
 				list-style-type: none;
-				
+				font-family:"Segoe UI","Roboto","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
 
@@ -91,11 +71,14 @@ top: 0px;
 
 
 #navbarText .navbar-nav .nav-link:hover{
-	width: auto;
+	
 			padding-bottom: 1%;
-			border-bottom: 3px solid rgb(20, 90, 219);
+			border-bottom: 3px solid #006db7;
+			
 			border-bottom-left-radius: 2px 3px ;
 			border-bottom-right-radius: 2px 2px ;
+
+			
 		}
 
 
@@ -369,7 +352,7 @@ width: 100%;
 }
 
 #ubicacion .info p{
-	margin-bottom: 30px;
+	margin-bottom: 60px;
 	color: #777;
     font-family: 'Open Sans', Arial, sans-serif;
     line-height: 22px;
@@ -475,9 +458,12 @@ box-shadow: 4px 3px 5px 4px #006db7;
 	width: 100%;
 	
 }
+#ubicacion h4{
+	color: rgb(44, 42, 42);
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 22px;
 
-
-
+}
 
 
 
